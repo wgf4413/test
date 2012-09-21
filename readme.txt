@@ -1,5 +1,5 @@
 ﻿==========
-git学习
+git基础
 ==========
 # 通过git工具获取git工具源码
 	1、运行[cmd]打开DOS窗口
@@ -25,8 +25,7 @@ git学习
 		2)生成SSH私钥和公钥，通过ssh-keygen命令生成类型为rsa密钥，其中id_rsa为密钥文件，id_rsa.pub为公钥
           		.\>ssh-keygen -t rsa -C "wgf4413@163.com"
 			Generating public/private rsa key pair
-			Enter file in which to save the key (/c/Documents and Settings/管理员/.ssh/id_rs
-			a): id_rsa
+			Enter file in which to save the key (/c/Documents and Settings/管理员/.ssh/id_rsa): id_rsa
 			Enter passphrase (empty for no passphrase):
 			Enter same passphrase again:
 			Your identification has been saved in id_rsa
@@ -38,8 +37,7 @@ git学习
           		.\>set HOME=C:\Documents and Settings\管理员
 		5)然后使用下面验证私钥是否可以和GitHub认证通过
 			.\>ssh -t git@github.com
-			Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell
-			 access.
+			Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 	2、把本地的git库提交到GitHub上托管
 		1)查看当前库配置的远程库地址
 			.\>git remote -v		//系统默认是origin名称

@@ -70,6 +70,6 @@ end
 # 需要整理的源目录
 s_path='E:\照相摄像'
 # 整理存放的新目录
-d_path='E:\photo'
+d_path='E:\photo1'
 Dir::mkdir(d_path) if !File.directory?(d_path)
 auto_sorting(s_path, d_path)
