@@ -1,20 +1,27 @@
-﻿= pik
+﻿= Level One Heading
+== Level Two Heading
 
-http://github.com/vertiginous/pik
+[cat] small domestic animal
+[+cat+] command to copy standard input
 
-Mailing List:  http://groups.google.com/group/discuss_pik
+italic: world
+bold: world
 
-Rubyforge:  http://rubyforge.org/projects/pik/
+# aa
+# bb
+# cc
+#--
+# dd
+#++
+# ee
+# ff
 
-Bugs/Feature requests:  http://github.com/vertiginous/pik/issues
-
-Gordon Thiesfeld  gthiesfeld@gmail.com
 
 == 通过git工具获取git工具源码
 
-# 运行[cmd]打开DOS窗口
+- 运行[cmd]打开DOS窗口
 
-# 切换到下载目录，执行下面克隆命令，从GitHub获取源码
+- 切换到下载目录，执行下面克隆命令，从GitHub获取源码
 
     .\>git clone https://github.com/git/git.git
 
