@@ -1,6 +1,14 @@
-﻿= git
+﻿= pik
 
-关于git的基础知识
+http://github.com/vertiginous/pik
+
+Mailing List:  http://groups.google.com/group/discuss_pik
+
+Rubyforge:  http://rubyforge.org/projects/pik/
+
+Bugs/Feature requests:  http://github.com/vertiginous/pik/issues
+
+Gordon Thiesfeld  gthiesfeld@gmail.com
 
 == 通过git工具获取git工具源码
 
@@ -19,12 +27,12 @@
 
 	2、新建test目录，进入test目录后新建git空库
 
-		.\>mkdir test
-		.\>cd test
-		.\test\>git init		// 在当前目录下新建git库，执行后出现.git目录(即git库)
-		.\test\>touch readme.txt	// 新建立一个文本文件
-		.\test\>git add readme.txt	// 把文件纳入git跟踪
-		.\test\>git commit -m"new file"	// 把纳入跟踪的文件提交到.git中
+     .\>mkdir test
+     .\>cd test
+     .\test\>git init			// 在当前目录下新建git库，执行后出现.git目录(即git库)
+     .\test\>touch readme.txt		// 新建立一个文本文件
+     .\test\>git add readme.txt		// 把文件纳入git跟踪
+     .\test\>git commit -m"new file"	// 把纳入跟踪的文件提交到.git中
 
 == 本地git库提交到GitHub上托管
 
