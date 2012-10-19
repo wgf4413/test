@@ -43,24 +43,24 @@
     50:b9:68:f3:1f:e0:e9:d2:66:57:9a:56:e8:b3:36:eb wgf4413@163.com
 
 ** 在"C:\Documents and Settings\管理员"目下自动生成.ssh文件夹，把刚才的私钥文件复制到这个目录
-		
+
 ** 需要添加环境变量“HOME”
-          	
+
     .\>set HOME=C:\Documents and Settings\管理员
-		
+
 ** 然后使用下面验证私钥是否可以和GitHub认证通过
-		
+
     .\>ssh -t git@github.com
     Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 
 * 把本地的git库提交到GitHub上托管
-	
+
 ** 查看当前库配置的远程库地址
-		
+
     .\>git remote -v		//系统默认是origin名称
     origin git@github.com:wgf4413/test.git (fetch)
     origin git@github.com:wgf4413/test.git (push)
 
 ** 把已提交到本地库的内容推送到远程库中
-		
+
     .\>git push origin
