@@ -12,20 +12,20 @@ Gordon Thiesfeld  gthiesfeld@gmail.com
 
 == 通过git工具获取git工具源码
 
-1、运行[cmd]打开DOS窗口
+# 运行[cmd]打开DOS窗口
 
-2、切换到下载目录，执行下面克隆命令，从GitHub获取源码
+# 切换到下载目录，执行下面克隆命令，从GitHub获取源码
 
     .\>git clone https://github.com/git/git.git
 
 == 新建git库并提交一个文件
 
-	1、如果要向git仓库提交内容，需要事先配置用户名和邮件
+* 如果要向git仓库提交内容，需要事先配置用户名和邮件
 
-        .\>git config --global user.name "吴高峰"
-        .\>git config --global user.email "wgf4413@163.com"
+    .\>git config --global user.name "吴高峰"
+    .\>git config --global user.email "wgf4413@163.com"
 
-	2、新建test目录，进入test目录后新建git空库
+* 新建test目录，进入test目录后新建git空库
 
      .\>mkdir test
      .\>cd test
