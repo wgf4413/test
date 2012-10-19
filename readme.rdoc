@@ -1,4 +1,4 @@
-﻿= git基础
+﻿= git
 
 == 通过git工具获取git工具源码
 
@@ -6,7 +6,7 @@
 
 2、切换到下载目录，执行下面克隆命令，从GitHub获取源码
 
-	.\>git clone https://github.com/git/git.git
+    .\>git clone https://github.com/git/git.git
 
 == 新建git库并提交一个文件
 
