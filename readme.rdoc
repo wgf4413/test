@@ -1,40 +1,40 @@
-ï»¿= gitåŸºç¡€
+= git»ù´¡
 
-== é€šè¿‡gitå·¥å…·èŽ·å–gitå·¥å…·æºç 
+== Í¨¹ýgit¹¤¾ß»ñÈ¡git¹¤¾ßÔ´Âë
 
-* è¿è¡Œ[cmd]æ‰“å¼€DOSçª—å£
+* ÔËÐÐ[cmd]´ò¿ªDOS´°¿Ú
 
-* åˆ‡æ¢åˆ°ä¸‹è½½ç›®å½•ï¼Œæ‰§è¡Œä¸‹é¢å…‹éš†å‘½ä»¤ï¼Œä»ŽGitHubèŽ·å–æºç 
+* ÇÐ»»µ½ÏÂÔØÄ¿Â¼£¬Ö´ÐÐÏÂÃæ¿ËÂ¡ÃüÁî£¬´ÓGitHub»ñÈ¡Ô´Âë
 
     .\>git clone https://github.com/git/git.git
 
-== æ–°å»ºgitåº“å¹¶æäº¤ä¸€ä¸ªæ–‡ä»¶
+== ÐÂ½¨git¿â²¢Ìá½»Ò»¸öÎÄ¼þ
 
-* å¦‚æžœè¦å‘gitä»“åº“æäº¤å†…å®¹ï¼Œéœ€è¦äº‹å…ˆé…ç½®ç”¨æˆ·åå’Œé‚®ä»¶
+* Èç¹ûÒªÏògit²Ö¿âÌá½»ÄÚÈÝ£¬ÐèÒªÊÂÏÈÅäÖÃÓÃ»§ÃûºÍÓÊ¼þ
 
-    .\>git config --global user.name "å´é«˜å³°"
+    .\>git config --global user.name "Îâ¸ß·å"
     .\>git config --global user.email "wgf4413@163.com"
 
-* æ–°å»ºtestç›®å½•ï¼Œè¿›å…¥testç›®å½•åŽæ–°å»ºgitç©ºåº“
+* ÐÂ½¨testÄ¿Â¼£¬½øÈëtestÄ¿Â¼ºóÐÂ½¨git¿Õ¿â
 
      .\>mkdir test
      .\>cd test
-     .\test\>git init			// åœ¨å½“å‰ç›®å½•ä¸‹æ–°å»ºgitåº“ï¼Œæ‰§è¡ŒåŽå‡ºçŽ°.gitç›®å½•(å³gitåº“)
-     .\test\>touch readme.txt		// æ–°å»ºç«‹ä¸€ä¸ªæ–‡æœ¬æ–‡ä»¶
-     .\test\>git add readme.txt		// æŠŠæ–‡ä»¶çº³å…¥gitè·Ÿè¸ª
-     .\test\>git commit -m"new file"		// æŠŠçº³å…¥è·Ÿè¸ªçš„æ–‡ä»¶æäº¤åˆ°.gitä¸­
+     .\test\>git init			// ÔÚµ±Ç°Ä¿Â¼ÏÂÐÂ½¨git¿â£¬Ö´ÐÐºó³öÏÖ.gitÄ¿Â¼(¼´git¿â)
+     .\test\>touch readme.txt		// ÐÂ½¨Á¢Ò»¸öÎÄ±¾ÎÄ¼þ
+     .\test\>git add readme.txt		// °ÑÎÄ¼þÄÉÈëgit¸ú×Ù
+     .\test\>git commit -m"new file"		// °ÑÄÉÈë¸ú×ÙµÄÎÄ¼þÌá½»µ½.gitÖÐ
 
-== æœ¬åœ°gitåº“æäº¤åˆ°GitHubä¸Šæ‰˜ç®¡
+== ±¾µØgit¿âÌá½»µ½GitHubÉÏÍÐ¹Ü
 
-* å»ºç«‹SSHè®¤è¯
+* ½¨Á¢SSHÈÏÖ¤
 
-** è¿è¡Œ[cmd]æ‰“å¼€DOSçª—å£
+** ÔËÐÐ[cmd]´ò¿ªDOS´°¿Ú
 
-** ç”ŸæˆSSHç§é’¥å’Œå…¬é’¥ï¼Œé€šè¿‡ssh-keygenå‘½ä»¤ç”Ÿæˆç±»åž‹ä¸ºrsaå¯†é’¥ï¼Œå…¶ä¸­id_rsaä¸ºå¯†é’¥æ–‡ä»¶ï¼Œid_rsa.pubä¸ºå…¬é’¥
+** Éú³ÉSSHË½Ô¿ºÍ¹«Ô¿£¬Í¨¹ýssh-keygenÃüÁîÉú³ÉÀàÐÍÎªrsaÃÜÔ¿£¬ÆäÖÐid_rsaÎªÃÜÔ¿ÎÄ¼þ£¬id_rsa.pubÎª¹«Ô¿
 
     .\>ssh-keygen -t rsa -C "wgf4413@163.com"
     Generating public/private rsa key pair
-    Enter file in which to save the key (/c/Documents and Settings/ç®¡ç†å‘˜/.ssh/id_rsa): id_rsa
+    Enter file in which to save the key (/c/Documents and Settings/¹ÜÀíÔ±/.ssh/id_rsa): id_rsa
     Enter passphrase (empty for no passphrase):
     Enter same passphrase again:
     Your identification has been saved in id_rsa
@@ -42,25 +42,25 @@
     They key fingerprint is:
     50:b9:68:f3:1f:e0:e9:d2:66:57:9a:56:e8:b3:36:eb wgf4413@163.com
 
-** åœ¨"C:\Documents and Settings\ç®¡ç†å‘˜"ç›®ä¸‹è‡ªåŠ¨ç”Ÿæˆ.sshæ–‡ä»¶å¤¹ï¼ŒæŠŠåˆšæ‰çš„ç§é’¥æ–‡ä»¶å¤åˆ¶åˆ°è¿™ä¸ªç›®å½•
+** ÔÚ"C:\Documents and Settings\¹ÜÀíÔ±"Ä¿ÏÂ×Ô¶¯Éú³É.sshÎÄ¼þ¼Ð£¬°Ñ¸Õ²ÅµÄË½Ô¿ÎÄ¼þ¸´ÖÆµ½Õâ¸öÄ¿Â¼
 		
-** éœ€è¦æ·»åŠ çŽ¯å¢ƒå˜é‡â€œHOMEâ€
+** ÐèÒªÌí¼Ó»·¾³±äÁ¿¡°HOME¡±
           	
-    .\>set HOME=C:\Documents and Settings\ç®¡ç†å‘˜
+    .\>set HOME=C:\Documents and Settings\¹ÜÀíÔ±
 		
-** ç„¶åŽä½¿ç”¨ä¸‹é¢éªŒè¯ç§é’¥æ˜¯å¦å¯ä»¥å’ŒGitHubè®¤è¯é€šè¿‡
+** È»ºóÊ¹ÓÃÏÂÃæÑéÖ¤Ë½Ô¿ÊÇ·ñ¿ÉÒÔºÍGitHubÈÏÖ¤Í¨¹ý
 		
     .\>ssh -t git@github.com
     Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 
-* æŠŠæœ¬åœ°çš„gitåº“æäº¤åˆ°GitHubä¸Šæ‰˜ç®¡
+* °Ñ±¾µØµÄgit¿âÌá½»µ½GitHubÉÏÍÐ¹Ü
 	
-** æŸ¥çœ‹å½“å‰åº“é…ç½®çš„è¿œç¨‹åº“åœ°å€
+** ²é¿´µ±Ç°¿âÅäÖÃµÄÔ¶³Ì¿âµØÖ·
 		
-    .\>git remote -v		//ç³»ç»Ÿé»˜è®¤æ˜¯originåç§°
+    .\>git remote -v		//ÏµÍ³Ä¬ÈÏÊÇoriginÃû³Æ
     origin git@github.com:wgf4413/test.git (fetch)
     origin git@github.com:wgf4413/test.git (push)
 
-** æŠŠå·²æäº¤åˆ°æœ¬åœ°åº“çš„å†…å®¹æŽ¨é€åˆ°è¿œç¨‹åº“ä¸­
+** °ÑÒÑÌá½»µ½±¾µØ¿âµÄÄÚÈÝÍÆËÍµ½Ô¶³Ì¿âÖÐ
 		
     .\>git push origin
