@@ -22,7 +22,7 @@
      .\test\>git init			// 在当前目录下新建git库，执行后出现.git目录(即git库)
      .\test\>touch readme.txt		// 新建立一个文本文件
      .\test\>git add readme.txt		// 把文件纳入git跟踪
-     .\test\>git commit -m"new file"	// 把纳入跟踪的文件提交到.git中
+     .\test\>git commit -m"new file"		// 把纳入跟踪的文件提交到.git中
 
 == 本地git库提交到GitHub上托管
 
