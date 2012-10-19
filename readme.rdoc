@@ -1,5 +1,7 @@
 ﻿= git
 
+关于git的基础知识
+
 == 通过git工具获取git工具源码
 
 1、运行[cmd]打开DOS窗口
@@ -12,8 +14,8 @@
 
 	1、如果要向git仓库提交内容，需要事先配置用户名和邮件
 
-		.\>git config --global user.name "吴高峰"
-		.\>git config --global user.email "wgf4413@163.com"
+        .\>git config --global user.name "吴高峰"
+        .\>git config --global user.email "wgf4413@163.com"
 
 	2、新建test目录，进入test目录后新建git空库
 
