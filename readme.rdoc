@@ -1,20 +1,11 @@
 ﻿
-= Level One Heading
-== Level Two Heading
-
-[catasdfad] small domestic animal
-[+cadafsddft+] command to copy standard input
-
-_world_
-*world*
-
-
+= git基础
 
 == 通过git工具获取git工具源码
 
-- 运行[cmd]打开DOS窗口
+* 运行[cmd]打开DOS窗口
 
-- 切换到下载目录，执行下面克隆命令，从GitHub获取源码
+* 切换到下载目录，执行下面克隆命令，从GitHub获取源码
 
     .\>git clone https://github.com/git/git.git
 
@@ -36,42 +27,41 @@ _world_
 
 == 本地git库提交到GitHub上托管
 
-	1、建立SSH认证
+* 建立SSH认证
 
-		1)运行[cmd]打开DOS窗口
+** 运行[cmd]打开DOS窗口
 
-		2)生成SSH私钥和公钥，通过ssh-keygen命令生成类型为rsa密钥，其中id_rsa为密钥文件，id_rsa.pub为公钥
+** 生成SSH私钥和公钥，通过ssh-keygen命令生成类型为rsa密钥，其中id_rsa为密钥文件，id_rsa.pub为公钥
 
-			.\>ssh-keygen -t rsa -C "wgf4413@163.com"
-			Generating public/private rsa key pair
-			Enter file in which to save the key (/c/Documents and Settings/管理员/.ssh/id_rsa): id_rsa
-			Enter passphrase (empty for no passphrase):
-			Enter same passphrase again:
-			Your identification has been saved in id_rsa
-			Your public key has been saved in id_rsa.pub
-			They key fingerprint is:
-			50:b9:68:f3:1f:e0:e9:d2:66:57:9a:56:e8:b3:36:eb wgf4413@163.com
+    .\>ssh-keygen -t rsa -C "wgf4413@163.com"
+    Generating public/private rsa key pair
+    Enter file in which to save the key (/c/Documents and Settings/管理员/.ssh/id_rsa): id_rsa
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
+    Your identification has been saved in id_rsa
+    Your public key has been saved in id_rsa.pub
+    They key fingerprint is:
+    50:b9:68:f3:1f:e0:e9:d2:66:57:9a:56:e8:b3:36:eb wgf4413@163.com
 
-		3)在"C:\Documents and Settings\管理员"目下自动生成.ssh文件夹，把刚才的私钥文件复制到这个目录
+** 在"C:\Documents and Settings\管理员"目下自动生成.ssh文件夹，把刚才的私钥文件复制到这个目录
 		
-		4)需要添加环境变量“HOME”
+** 需要添加环境变量“HOME”
           	
-			.\>set HOME=C:\Documents and Settings\管理员
+    .\>set HOME=C:\Documents and Settings\管理员
 		
-		5)然后使用下面验证私钥是否可以和GitHub认证通过
+** 然后使用下面验证私钥是否可以和GitHub认证通过
 		
-			.\>ssh -t git@github.com
-			Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
+    .\>ssh -t git@github.com
+    Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 
-	2、把本地的git库提交到GitHub上托管
+* 把本地的git库提交到GitHub上托管
 	
-		1)查看当前库配置的远程库地址
+** 查看当前库配置的远程库地址
 		
-			.\>git remote -v		//系统默认是origin名称
-			origin git@github.com:wgf4413/test.git (fetch)
-			origin git@github.com:wgf4413/test.git (push)
+    .\>git remote -v		//系统默认是origin名称
+    origin git@github.com:wgf4413/test.git (fetch)
+    origin git@github.com:wgf4413/test.git (push)
 
-		2)把已提交到本地库的内容推送到远程库中
+** 把已提交到本地库的内容推送到远程库中
 		
-			.\>git push origin
-
+    .\>git push origin
