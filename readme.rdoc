@@ -1,5 +1,4 @@
-﻿
-= git基础
+﻿= git基础
 
 == 通过git工具获取git工具源码
 
@@ -54,14 +53,14 @@
     .\>ssh -t git@github.com
     Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 
-# 把本地的git库提交到GitHub上托管
+* 把本地的git库提交到GitHub上托管
 	
-## 查看当前库配置的远程库地址
+** 查看当前库配置的远程库地址
 		
     .\>git remote -v		//系统默认是origin名称
     origin git@github.com:wgf4413/test.git (fetch)
     origin git@github.com:wgf4413/test.git (push)
 
-## 把已提交到本地库的内容推送到远程库中
+** 把已提交到本地库的内容推送到远程库中
 		
     .\>git push origin
