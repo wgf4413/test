@@ -29,9 +29,9 @@
 
 * 建立SSH认证
 
-*# 运行[cmd]打开DOS窗口
+** 运行[cmd]打开DOS窗口
 
-*# 生成SSH私钥和公钥，通过ssh-keygen命令生成类型为rsa密钥，其中id_rsa为密钥文件，id_rsa.pub为公钥
+** 生成SSH私钥和公钥，通过ssh-keygen命令生成类型为rsa密钥，其中id_rsa为密钥文件，id_rsa.pub为公钥
 
     .\>ssh-keygen -t rsa -C "wgf4413@163.com"
     Generating public/private rsa key pair
@@ -54,14 +54,14 @@
     .\>ssh -t git@github.com
     Hi wgf4413! you've successfully authenticated, but GitHub does not provide shell access.
 
-* 把本地的git库提交到GitHub上托管
+# 把本地的git库提交到GitHub上托管
 	
-** 查看当前库配置的远程库地址
+## 查看当前库配置的远程库地址
 		
     .\>git remote -v		//系统默认是origin名称
     origin git@github.com:wgf4413/test.git (fetch)
     origin git@github.com:wgf4413/test.git (push)
 
-** 把已提交到本地库的内容推送到远程库中
+## 把已提交到本地库的内容推送到远程库中
 		
     .\>git push origin
